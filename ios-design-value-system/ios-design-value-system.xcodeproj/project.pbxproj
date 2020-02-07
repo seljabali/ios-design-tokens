@@ -11,12 +11,15 @@
 		68347B8523ED06F100A2DC8E /* LandingPageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B8423ED06F100A2DC8E /* LandingPageItem.swift */; };
 		68347B8723ED0EDE00A2DC8E /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B8623ED0EDE00A2DC8E /* Strings.swift */; };
 		68347B8A23EDD3D500A2DC8E /* SpacingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B8923EDD3D500A2DC8E /* SpacingsViewController.swift */; };
-		68347B8E23EDD5DA00A2DC8E /* HorizontalSpacings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B8D23EDD5DA00A2DC8E /* HorizontalSpacings.swift */; };
+		68347B8E23EDD5DA00A2DC8E /* HorizontalSpacingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B8D23EDD5DA00A2DC8E /* HorizontalSpacingsViewController.swift */; };
 		68347B9123EDD77200A2DC8E /* TextSizesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B9023EDD77200A2DC8E /* TextSizesViewController.swift */; };
 		68347B9323EDD88B00A2DC8E /* VerticalSpacingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B9223EDD88B00A2DC8E /* VerticalSpacingsViewController.swift */; };
 		68347B9623EDD8D700A2DC8E /* CornerRadiusesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B9523EDD8D700A2DC8E /* CornerRadiusesViewController.swift */; };
 		68347B9923EDDDB400A2DC8E /* PaddingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B9823EDDDB400A2DC8E /* PaddingsViewController.swift */; };
 		68347B9C23EDDF7C00A2DC8E /* LetterSpacingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B9B23EDDF7C00A2DC8E /* LetterSpacingsViewController.swift */; };
+		68347B9E23EDE3D700A2DC8E /* HorizontalCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B9D23EDE3D700A2DC8E /* HorizontalCellView.swift */; };
+		68347BA023EDE6A300A2DC8E /* HorizontalSpacingItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B9F23EDE6A300A2DC8E /* HorizontalSpacingItems.swift */; };
+		68347BA223EE172C00A2DC8E /* HorizontalBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347BA123EE172C00A2DC8E /* HorizontalBlockView.swift */; };
 		6867AB602343F41800A32328 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB5F2343F41800A32328 /* RootViewController.swift */; };
 		6867AB682343F5BA00A32328 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB672343F5BA00A32328 /* Logger.swift */; };
 		6867AB722343F63B00A32328 /* PassThroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB712343F63B00A32328 /* PassThroughView.swift */; };
@@ -63,12 +66,15 @@
 		68347B8423ED06F100A2DC8E /* LandingPageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageItem.swift; sourceTree = "<group>"; };
 		68347B8623ED0EDE00A2DC8E /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		68347B8923EDD3D500A2DC8E /* SpacingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacingsViewController.swift; sourceTree = "<group>"; };
-		68347B8D23EDD5DA00A2DC8E /* HorizontalSpacings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSpacings.swift; sourceTree = "<group>"; };
+		68347B8D23EDD5DA00A2DC8E /* HorizontalSpacingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSpacingsViewController.swift; sourceTree = "<group>"; };
 		68347B9023EDD77200A2DC8E /* TextSizesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSizesViewController.swift; sourceTree = "<group>"; };
 		68347B9223EDD88B00A2DC8E /* VerticalSpacingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSpacingsViewController.swift; sourceTree = "<group>"; };
 		68347B9523EDD8D700A2DC8E /* CornerRadiusesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusesViewController.swift; sourceTree = "<group>"; };
 		68347B9823EDDDB400A2DC8E /* PaddingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingsViewController.swift; sourceTree = "<group>"; };
 		68347B9B23EDDF7C00A2DC8E /* LetterSpacingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterSpacingsViewController.swift; sourceTree = "<group>"; };
+		68347B9D23EDE3D700A2DC8E /* HorizontalCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCellView.swift; sourceTree = "<group>"; };
+		68347B9F23EDE6A300A2DC8E /* HorizontalSpacingItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSpacingItems.swift; sourceTree = "<group>"; };
+		68347BA123EE172C00A2DC8E /* HorizontalBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalBlockView.swift; sourceTree = "<group>"; };
 		6867AB5F2343F41800A32328 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		6867AB672343F5BA00A32328 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		6867AB712343F63B00A32328 /* PassThroughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassThroughView.swift; sourceTree = "<group>"; };
@@ -165,7 +171,10 @@
 		68347B8C23EDD5B500A2DC8E /* horizontal_spacings */ = {
 			isa = PBXGroup;
 			children = (
-				68347B8D23EDD5DA00A2DC8E /* HorizontalSpacings.swift */,
+				68347B8D23EDD5DA00A2DC8E /* HorizontalSpacingsViewController.swift */,
+				68347B9D23EDE3D700A2DC8E /* HorizontalCellView.swift */,
+				68347B9F23EDE6A300A2DC8E /* HorizontalSpacingItems.swift */,
+				68347BA123EE172C00A2DC8E /* HorizontalBlockView.swift */,
 			);
 			path = horizontal_spacings;
 			sourceTree = "<group>";
@@ -481,11 +490,13 @@
 				6867AB722343F63B00A32328 /* PassThroughView.swift in Sources */,
 				A21C3B74A21BE7BA4B9F4975 /* AppDelegate.swift in Sources */,
 				A21C3795A57A27685F19529F /* LandingPageViewController.swift in Sources */,
+				68347BA023EDE6A300A2DC8E /* HorizontalSpacingItems.swift in Sources */,
 				6867AB742343F6B800A32328 /* BaseViewController.swift in Sources */,
+				68347BA223EE172C00A2DC8E /* HorizontalBlockView.swift in Sources */,
 				6867AB762343F6E600A32328 /* CollectionExtensions.swift in Sources */,
 				6867AB942343FA4E00A32328 /* HomeNavigationController.swift in Sources */,
 				6867AB602343F41800A32328 /* RootViewController.swift in Sources */,
-				68347B8E23EDD5DA00A2DC8E /* HorizontalSpacings.swift in Sources */,
+				68347B8E23EDD5DA00A2DC8E /* HorizontalSpacingsViewController.swift in Sources */,
 				6867AB7A2343F71B00A32328 /* NSObjectExtensions.swift in Sources */,
 				68347B9C23EDDF7C00A2DC8E /* LetterSpacingsViewController.swift in Sources */,
 				6867AB8E2343F88200A32328 /* TextAppearances.swift in Sources */,
@@ -502,6 +513,7 @@
 				6867AB8C2343F86E00A32328 /* PresetDimensions.swift in Sources */,
 				68347B9923EDDDB400A2DC8E /* PaddingsViewController.swift in Sources */,
 				6867AB7E2343F78700A32328 /* StringExtensions.swift in Sources */,
+				68347B9E23EDE3D700A2DC8E /* HorizontalCellView.swift in Sources */,
 				6867AB802343F7A000A32328 /* SwiftExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
