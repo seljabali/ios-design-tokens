@@ -1,0 +1,6 @@
+framework module Pods_ios_design_value_system {
+  umbrella header "Pods-ios-design-value-system-umbrella.h"
+
+  export *
+  module * { export * }
+}
