@@ -10,6 +10,13 @@
 		0A60394D8735DBCB8A66A50F /* Pods_ios_design_value_system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F5EAD922415AB6F3B10C96 /* Pods_ios_design_value_system.framework */; };
 		68347B8523ED06F100A2DC8E /* LandingPageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B8423ED06F100A2DC8E /* LandingPageItem.swift */; };
 		68347B8723ED0EDE00A2DC8E /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B8623ED0EDE00A2DC8E /* Strings.swift */; };
+		68347B8A23EDD3D500A2DC8E /* SpacingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B8923EDD3D500A2DC8E /* SpacingsViewController.swift */; };
+		68347B8E23EDD5DA00A2DC8E /* HorizontalSpacings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B8D23EDD5DA00A2DC8E /* HorizontalSpacings.swift */; };
+		68347B9123EDD77200A2DC8E /* TextSizesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B9023EDD77200A2DC8E /* TextSizesViewController.swift */; };
+		68347B9323EDD88B00A2DC8E /* VerticalSpacingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B9223EDD88B00A2DC8E /* VerticalSpacingsViewController.swift */; };
+		68347B9623EDD8D700A2DC8E /* CornerRadiusesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B9523EDD8D700A2DC8E /* CornerRadiusesViewController.swift */; };
+		68347B9923EDDDB400A2DC8E /* PaddingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B9823EDDDB400A2DC8E /* PaddingsViewController.swift */; };
+		68347B9C23EDDF7C00A2DC8E /* LetterSpacingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B9B23EDDF7C00A2DC8E /* LetterSpacingsViewController.swift */; };
 		6867AB602343F41800A32328 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB5F2343F41800A32328 /* RootViewController.swift */; };
 		6867AB682343F5BA00A32328 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB672343F5BA00A32328 /* Logger.swift */; };
 		6867AB722343F63B00A32328 /* PassThroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB712343F63B00A32328 /* PassThroughView.swift */; };
@@ -55,6 +62,13 @@
 		312D72F8FCD73BA87629F214 /* Pods-ios-design-value-system.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-design-value-system.release.xcconfig"; path = "Target Support Files/Pods-ios-design-value-system/Pods-ios-design-value-system.release.xcconfig"; sourceTree = "<group>"; };
 		68347B8423ED06F100A2DC8E /* LandingPageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageItem.swift; sourceTree = "<group>"; };
 		68347B8623ED0EDE00A2DC8E /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		68347B8923EDD3D500A2DC8E /* SpacingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacingsViewController.swift; sourceTree = "<group>"; };
+		68347B8D23EDD5DA00A2DC8E /* HorizontalSpacings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSpacings.swift; sourceTree = "<group>"; };
+		68347B9023EDD77200A2DC8E /* TextSizesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSizesViewController.swift; sourceTree = "<group>"; };
+		68347B9223EDD88B00A2DC8E /* VerticalSpacingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalSpacingsViewController.swift; sourceTree = "<group>"; };
+		68347B9523EDD8D700A2DC8E /* CornerRadiusesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusesViewController.swift; sourceTree = "<group>"; };
+		68347B9823EDDDB400A2DC8E /* PaddingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingsViewController.swift; sourceTree = "<group>"; };
+		68347B9B23EDDF7C00A2DC8E /* LetterSpacingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterSpacingsViewController.swift; sourceTree = "<group>"; };
 		6867AB5F2343F41800A32328 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		6867AB672343F5BA00A32328 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		6867AB712343F63B00A32328 /* PassThroughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassThroughView.swift; sourceTree = "<group>"; };
@@ -129,9 +143,72 @@
 			path = landing_page;
 			sourceTree = "<group>";
 		};
+		68347B8823EDD3C000A2DC8E /* spacings */ = {
+			isa = PBXGroup;
+			children = (
+				68347B9723EDDDA600A2DC8E /* paddings */,
+				68347B8C23EDD5B500A2DC8E /* horizontal_spacings */,
+				68347B8B23EDD5A000A2DC8E /* vertical_spacings */,
+				68347B8923EDD3D500A2DC8E /* SpacingsViewController.swift */,
+			);
+			path = spacings;
+			sourceTree = "<group>";
+		};
+		68347B8B23EDD5A000A2DC8E /* vertical_spacings */ = {
+			isa = PBXGroup;
+			children = (
+				68347B9223EDD88B00A2DC8E /* VerticalSpacingsViewController.swift */,
+			);
+			path = vertical_spacings;
+			sourceTree = "<group>";
+		};
+		68347B8C23EDD5B500A2DC8E /* horizontal_spacings */ = {
+			isa = PBXGroup;
+			children = (
+				68347B8D23EDD5DA00A2DC8E /* HorizontalSpacings.swift */,
+			);
+			path = horizontal_spacings;
+			sourceTree = "<group>";
+		};
+		68347B8F23EDD76400A2DC8E /* text_sizes */ = {
+			isa = PBXGroup;
+			children = (
+				68347B9023EDD77200A2DC8E /* TextSizesViewController.swift */,
+			);
+			path = text_sizes;
+			sourceTree = "<group>";
+		};
+		68347B9423EDD8C500A2DC8E /* corner_radiuses */ = {
+			isa = PBXGroup;
+			children = (
+				68347B9523EDD8D700A2DC8E /* CornerRadiusesViewController.swift */,
+			);
+			path = corner_radiuses;
+			sourceTree = "<group>";
+		};
+		68347B9723EDDDA600A2DC8E /* paddings */ = {
+			isa = PBXGroup;
+			children = (
+				68347B9823EDDDB400A2DC8E /* PaddingsViewController.swift */,
+			);
+			path = paddings;
+			sourceTree = "<group>";
+		};
+		68347B9A23EDDF6C00A2DC8E /* letter_spacings */ = {
+			isa = PBXGroup;
+			children = (
+				68347B9B23EDDF7C00A2DC8E /* LetterSpacingsViewController.swift */,
+			);
+			path = letter_spacings;
+			sourceTree = "<group>";
+		};
 		6867AB5E2343F36B00A32328 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				68347B9A23EDDF6C00A2DC8E /* letter_spacings */,
+				68347B9423EDD8C500A2DC8E /* corner_radiuses */,
+				68347B8F23EDD76400A2DC8E /* text_sizes */,
+				68347B8823EDD3C000A2DC8E /* spacings */,
 				68347B8323ED061E00A2DC8E /* landing_page */,
 				6867AB5F2343F41800A32328 /* RootViewController.swift */,
 				6867AB932343FA4E00A32328 /* HomeNavigationController.swift */,
@@ -400,6 +477,7 @@
 			files = (
 				6867AB882343F84100A32328 /* UIViewExtensions.swift in Sources */,
 				6867AB8A2343F85D00A32328 /* PresetColors.swift in Sources */,
+				68347B9123EDD77200A2DC8E /* TextSizesViewController.swift in Sources */,
 				6867AB722343F63B00A32328 /* PassThroughView.swift in Sources */,
 				A21C3B74A21BE7BA4B9F4975 /* AppDelegate.swift in Sources */,
 				A21C3795A57A27685F19529F /* LandingPageViewController.swift in Sources */,
@@ -407,16 +485,22 @@
 				6867AB762343F6E600A32328 /* CollectionExtensions.swift in Sources */,
 				6867AB942343FA4E00A32328 /* HomeNavigationController.swift in Sources */,
 				6867AB602343F41800A32328 /* RootViewController.swift in Sources */,
+				68347B8E23EDD5DA00A2DC8E /* HorizontalSpacings.swift in Sources */,
 				6867AB7A2343F71B00A32328 /* NSObjectExtensions.swift in Sources */,
+				68347B9C23EDDF7C00A2DC8E /* LetterSpacingsViewController.swift in Sources */,
 				6867AB8E2343F88200A32328 /* TextAppearances.swift in Sources */,
+				68347B9323EDD88B00A2DC8E /* VerticalSpacingsViewController.swift in Sources */,
 				68347B8723ED0EDE00A2DC8E /* Strings.swift in Sources */,
+				68347B9623EDD8D700A2DC8E /* CornerRadiusesViewController.swift in Sources */,
 				68347B8523ED06F100A2DC8E /* LandingPageItem.swift in Sources */,
 				6867AB862343F82800A32328 /* UIViewControllerExtensions.swift in Sources */,
 				6867AB822343F7F100A32328 /* UILabelExtensions.swift in Sources */,
 				6867AB842343F80600A32328 /* UITableViewExtensions.swift in Sources */,
 				A21C361A7D66894CC08C0533 /* Dimens.swift in Sources */,
 				6867AB682343F5BA00A32328 /* Logger.swift in Sources */,
+				68347B8A23EDD3D500A2DC8E /* SpacingsViewController.swift in Sources */,
 				6867AB8C2343F86E00A32328 /* PresetDimensions.swift in Sources */,
+				68347B9923EDDDB400A2DC8E /* PaddingsViewController.swift in Sources */,
 				6867AB7E2343F78700A32328 /* StringExtensions.swift in Sources */,
 				6867AB802343F7A000A32328 /* SwiftExtensions.swift in Sources */,
 			);

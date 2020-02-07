@@ -21,7 +21,10 @@ class LandingPageItem: UIView {
 
     private func setupView() {
         backgroundColor = .white
-        addSubview(itemTitle)
+        itemTitle.apply {
+            $0.numberOfLines = 0
+            addSubview($0)
+        }
         setConstraints()
     }
 
