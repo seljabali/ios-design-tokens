@@ -36,5 +36,6 @@ class LandingPageItem: UIView {
     
     public func setTitle(_ text: String) {
         itemTitle.text = text
+        itemTitle.setTextAppearance(TextAppearances.Headline)
     }
 }

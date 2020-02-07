@@ -2,28 +2,26 @@ import Foundation
 import UIKit
 
 enum TextAppearances {
-    case Body, Subhead, Title, Large
+    case Headline, Subheadline, Body, Callout, Footnote, Caption1, Caption2
 
     func getFont() -> UIFont {
         switch self {
+        case .Headline:
+            return UIFont.preferredFont(forTextStyle: .headline)
+        case .Subheadline:
+            return UIFont.preferredFont(forTextStyle: .subheadline)
         case .Body:
-            return UIFont.systemFont(ofSize: TextSizes.body.cgFloat)
-        case .Subhead:
-            return UIFont.systemFont(ofSize: TextSizes.subhead.cgFloat)
-        case .Title:
-            return UIFont.boldSystemFont(ofSize: TextSizes.title.cgFloat)
-        case .Large:
-            return UIFont.boldSystemFont(ofSize: TextSizes.large.cgFloat)
+            return UIFont.preferredFont(forTextStyle: .body)
+        case .Callout:
+            return UIFont.preferredFont(forTextStyle: .callout)
+        case .Footnote:
+            return UIFont.preferredFont(forTextStyle: .footnote)
+        case .Caption1:
+            return UIFont.preferredFont(forTextStyle: .caption1)
+        case .Caption2:
+            return UIFont.preferredFont(forTextStyle: .caption2)
         }
     }
-//    UIFont.preferredFont(forTextStyle: .body)
-//    public static let headline: UIFont.TextStyle
-//    public static let subheadline: UIFont.TextStyle
-//    public static let body: UIFont.TextStyle
-//    public static let callout: UIFont.TextStyle
-//    public static let footnote: UIFont.TextStyle
-//    public static let caption1: UIFont.TextStyle
-//    public static let caption2: UIFont.TextStyle
 }
 
 extension UILabel {
