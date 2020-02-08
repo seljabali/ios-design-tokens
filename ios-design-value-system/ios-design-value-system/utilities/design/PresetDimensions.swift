@@ -41,16 +41,6 @@ struct VerticalSpacings {
     static let xl2 = Spacings.sexdecuple
 }
 
-struct Padding {
-    static let xxs = Spacings.quarter
-    static let xs = Spacings.half
-    static let s = Spacings.spacing
-    static let m = Spacings.double
-    static let l = Spacings.quadruple
-    static let xl = Spacings.octuple
-    static let xl2 = Spacings.sexdecuple
-}
-
 struct CornerRadius {
     static let xxs = 2
     static let xs = 4

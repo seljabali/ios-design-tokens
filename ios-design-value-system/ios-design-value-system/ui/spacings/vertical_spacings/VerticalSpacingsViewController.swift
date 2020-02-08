@@ -26,7 +26,7 @@ class VerticalSpacingsViewController : BaseViewController {
                 $0.setVerticalSpacingItem(verticalSpacingItem)
                 $0.tag = i
                 $0.frame = CGRect(x: xOffset,
-                                  y: CGFloat(HorizontalSpacings.s.cgFloat),
+                                  y: CGFloat(VerticalSpacings.s.cgFloat),
                                   width: Dimens.VerticalCellViewWidth.cgFloat,
                                   height: Dimens.VerticalCellViewHeight.cgFloat)
             }

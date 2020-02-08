@@ -4,5 +4,4 @@ use_frameworks!
 target 'ios-design-value-system' do
   pod 'SnapKit', '~> 5.0.0'
   pod 'SwifterSwift'
-  pod 'SwiftyBeaver'
 end

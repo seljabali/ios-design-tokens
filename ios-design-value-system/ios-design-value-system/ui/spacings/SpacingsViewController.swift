@@ -5,7 +5,6 @@ import SnapKit
 class SpacingsViewController: BaseViewController {
     private let verticalSpacingPageItem = LandingPageItemView()
     private let horizontalSpacingsPageItem = LandingPageItemView()
-    private let paddingsPageItem = LandingPageItemView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,11 +25,6 @@ class SpacingsViewController: BaseViewController {
             $0.setOnTapListener(target: self, action: #selector(onHorizontalSpacingsPageItemTapped))
             view.addSubview($0)
         }
-//        paddingsPageItem.apply {
-//            $0.setTitle(Strings.Paddings)
-//            $0.setOnTapListener(target: self, action: #selector(onPaddingsSpacingsPageItemTapped))
-//            view.addSubview($0)
-//        }
     }
 
     private func setConstraints() {
@@ -44,11 +38,6 @@ class SpacingsViewController: BaseViewController {
             make.right.equalTo(view.safeAreaLayoutGuide.snp.right).offset(-HorizontalSpacings.m)
             make.left.equalTo(view.safeAreaLayoutGuide.snp.centerX)
         }
-//        paddingsPageItem.snp.makeConstraints { (make) -> Void in
-//            make.top.equalTo(verticalSpacingPageItem.safeAreaLayoutGuide.snp.bottom).offset(HorizontalSpacings.m)
-//            make.left.equalTo(view.safeAreaLayoutGuide.snp.left).offset(HorizontalSpacings.m)
-//            make.right.equalTo(view.safeAreaLayoutGuide.snp.centerX)
-//        }
     }
     
     @objc private func onVerticalSpacingsPageItemTapped() {
@@ -57,9 +46,5 @@ class SpacingsViewController: BaseViewController {
     
     @objc private func onHorizontalSpacingsPageItemTapped() {
         pushViewController(HorizontalSpacingsViewController())
-    }
-    
-    @objc private func onPaddingsSpacingsPageItemTapped() {
-        pushViewController(PaddingsSpacingsViewController())
     }
 }

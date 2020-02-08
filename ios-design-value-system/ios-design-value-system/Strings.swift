@@ -12,7 +12,6 @@ public class Strings {
     // Spacings
     public static let VerticalSpacings = "Vertical Spacings"
     public static let HorizontalSpacings = "Horizontal Spacings"
-    public static let Paddings = "Paddings"
     
     // T-Shirt Sizes
     public static let XXS = "XXS"

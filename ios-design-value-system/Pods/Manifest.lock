@@ -19,24 +19,20 @@ PODS:
   - SwifterSwift/SpriteKit (5.0.0)
   - SwifterSwift/SwiftStdlib (5.0.0)
   - SwifterSwift/UIKit (5.0.0)
-  - SwiftyBeaver (1.7.0)
 
 DEPENDENCIES:
   - SnapKit (~> 5.0.0)
   - SwifterSwift
-  - SwiftyBeaver
 
 SPEC REPOS:
   trunk:
     - SnapKit
     - SwifterSwift
-    - SwiftyBeaver
 
 SPEC CHECKSUMS:
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   SwifterSwift: 96f90594b370802f01647c2b1229c74a84ffafee
-  SwiftyBeaver: 4cc0080d2e23f980652e28978db11a5c9da39165
 
-PODFILE CHECKSUM: ef59bd8198d74354210ca502d16fd92c8173fecb
+PODFILE CHECKSUM: f9cd52a376c7f8995bc800b193b8bf0136ee8c6a
 
 COCOAPODS: 1.8.4
