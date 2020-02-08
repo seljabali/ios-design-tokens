@@ -5,4 +5,7 @@ struct Dimens {
     
     static let HorizontalBarHeight = 20
     static let HorizontalBarWidth = 40
+    
+    static let VerticalBarHeight = 20
+    static let VerticalBarWidth = 40
 }
