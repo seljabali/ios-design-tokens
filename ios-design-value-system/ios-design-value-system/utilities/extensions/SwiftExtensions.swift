@@ -9,11 +9,3 @@ extension ScopeFunc {
     }
 }
 extension NSObject: ScopeFunc {}
-
-
-extension Optional {
-    func `let`(do: (Wrapped)->()) {
-        guard let v = self else { return }
-        `do`(v)
-    }
-}

@@ -32,14 +32,10 @@
 		68347BB623EF3C8C00A2DC8E /* LandingPageItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347BB523EF3C8C00A2DC8E /* LandingPageItems.swift */; };
 		68347BB823EF3D8A00A2DC8E /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347BB723EF3D8A00A2DC8E /* Images.swift */; };
 		6867AB602343F41800A32328 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB5F2343F41800A32328 /* RootViewController.swift */; };
-		6867AB682343F5BA00A32328 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB672343F5BA00A32328 /* Logger.swift */; };
-		6867AB722343F63B00A32328 /* PassThroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB712343F63B00A32328 /* PassThroughView.swift */; };
 		6867AB742343F6B800A32328 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB732343F6B800A32328 /* BaseViewController.swift */; };
-		6867AB762343F6E600A32328 /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB752343F6E600A32328 /* CollectionExtensions.swift */; };
 		6867AB7A2343F71B00A32328 /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB792343F71B00A32328 /* NSObjectExtensions.swift */; };
 		6867AB7E2343F78700A32328 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB7D2343F78700A32328 /* StringExtensions.swift */; };
 		6867AB802343F7A000A32328 /* SwiftExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB7F2343F7A000A32328 /* SwiftExtensions.swift */; };
-		6867AB822343F7F100A32328 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB812343F7F100A32328 /* UILabelExtensions.swift */; };
 		6867AB842343F80600A32328 /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB832343F80600A32328 /* UITableViewExtensions.swift */; };
 		6867AB862343F82800A32328 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB852343F82800A32328 /* UIViewControllerExtensions.swift */; };
 		6867AB882343F84100A32328 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB872343F84100A32328 /* UIViewExtensions.swift */; };
@@ -98,14 +94,10 @@
 		68347BB523EF3C8C00A2DC8E /* LandingPageItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageItems.swift; sourceTree = "<group>"; };
 		68347BB723EF3D8A00A2DC8E /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		6867AB5F2343F41800A32328 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		6867AB672343F5BA00A32328 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
-		6867AB712343F63B00A32328 /* PassThroughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassThroughView.swift; sourceTree = "<group>"; };
 		6867AB732343F6B800A32328 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		6867AB752343F6E600A32328 /* CollectionExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtensions.swift; sourceTree = "<group>"; };
 		6867AB792343F71B00A32328 /* NSObjectExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtensions.swift; sourceTree = "<group>"; };
 		6867AB7D2343F78700A32328 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		6867AB7F2343F7A000A32328 /* SwiftExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExtensions.swift; sourceTree = "<group>"; };
-		6867AB812343F7F100A32328 /* UILabelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtensions.swift; sourceTree = "<group>"; };
 		6867AB832343F80600A32328 /* UITableViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtensions.swift; sourceTree = "<group>"; };
 		6867AB852343F82800A32328 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		6867AB872343F84100A32328 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
@@ -257,14 +249,6 @@
 			path = ui;
 			sourceTree = "<group>";
 		};
-		6867AB6B2343F5E000A32328 /* views */ = {
-			isa = PBXGroup;
-			children = (
-				6867AB712343F63B00A32328 /* PassThroughView.swift */,
-			);
-			path = views;
-			sourceTree = "<group>";
-		};
 		6867AB6C2343F5EB00A32328 /* uiviewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,11 +260,9 @@
 		6867AB6D2343F5F300A32328 /* extensions */ = {
 			isa = PBXGroup;
 			children = (
-				6867AB752343F6E600A32328 /* CollectionExtensions.swift */,
 				6867AB792343F71B00A32328 /* NSObjectExtensions.swift */,
 				6867AB7D2343F78700A32328 /* StringExtensions.swift */,
 				6867AB7F2343F7A000A32328 /* SwiftExtensions.swift */,
-				6867AB812343F7F100A32328 /* UILabelExtensions.swift */,
 				6867AB832343F80600A32328 /* UITableViewExtensions.swift */,
 				6867AB852343F82800A32328 /* UIViewControllerExtensions.swift */,
 				6867AB872343F84100A32328 /* UIViewExtensions.swift */,
@@ -327,8 +309,6 @@
 				6867AB6E2343F5FB00A32328 /* design */,
 				6867AB6D2343F5F300A32328 /* extensions */,
 				6867AB6C2343F5EB00A32328 /* uiviewcontrollers */,
-				6867AB6B2343F5E000A32328 /* views */,
-				6867AB672343F5BA00A32328 /* Logger.swift */,
 			);
 			path = utilities;
 			sourceTree = "<group>";
@@ -521,7 +501,6 @@
 				6867AB882343F84100A32328 /* UIViewExtensions.swift in Sources */,
 				6867AB8A2343F85D00A32328 /* PresetColors.swift in Sources */,
 				68347B9123EDD77200A2DC8E /* TextSizesViewController.swift in Sources */,
-				6867AB722343F63B00A32328 /* PassThroughView.swift in Sources */,
 				68347BA823EE2EE900A2DC8E /* VerticalCellView.swift in Sources */,
 				A21C3B74A21BE7BA4B9F4975 /* AppDelegate.swift in Sources */,
 				68347BB823EF3D8A00A2DC8E /* Images.swift in Sources */,
@@ -532,7 +511,6 @@
 				6867AB742343F6B800A32328 /* BaseViewController.swift in Sources */,
 				68347BB023EE751400A2DC8E /* LetterSpacingCellView.swift in Sources */,
 				68347BA223EE172C00A2DC8E /* HorizontalBlockView.swift in Sources */,
-				6867AB762343F6E600A32328 /* CollectionExtensions.swift in Sources */,
 				6867AB942343FA4E00A32328 /* HomeNavigationController.swift in Sources */,
 				6867AB602343F41800A32328 /* RootViewController.swift in Sources */,
 				68347B8E23EDD5DA00A2DC8E /* HorizontalSpacingsViewController.swift in Sources */,
@@ -547,10 +525,8 @@
 				68347B9623EDD8D700A2DC8E /* CornerRadiusesViewController.swift in Sources */,
 				68347B8523ED06F100A2DC8E /* LandingPageItemView.swift in Sources */,
 				6867AB862343F82800A32328 /* UIViewControllerExtensions.swift in Sources */,
-				6867AB822343F7F100A32328 /* UILabelExtensions.swift in Sources */,
 				6867AB842343F80600A32328 /* UITableViewExtensions.swift in Sources */,
 				A21C361A7D66894CC08C0533 /* Dimens.swift in Sources */,
-				6867AB682343F5BA00A32328 /* Logger.swift in Sources */,
 				68347B8A23EDD3D500A2DC8E /* SpacingsViewController.swift in Sources */,
 				6867AB8C2343F86E00A32328 /* PresetDimensions.swift in Sources */,
 				68347BB223EE824E00A2DC8E /* CornerRadiusItems.swift in Sources */,

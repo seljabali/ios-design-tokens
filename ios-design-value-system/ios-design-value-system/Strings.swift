@@ -1,6 +1,7 @@
 import Foundation
 
 public class Strings {
+    // Landing Page Items
     public static let DesignValueSystem = "Design Value System"
     public static let Spacings = "Spacings"
     public static let TextSizes = "Text Sizes"
@@ -8,10 +9,12 @@ public class Strings {
     public static let Elevations = "Elevations"
     public static let LetterSpacings = "Letter Spacings"
     
+    // Spacings
     public static let VerticalSpacings = "Vertical Spacings"
     public static let HorizontalSpacings = "Horizontal Spacings"
     public static let Paddings = "Paddings"
     
+    // T-Shirt Sizes
     public static let XXS = "XXS"
     public static let XS = "XS"
     public static let S = "S"
@@ -20,6 +23,7 @@ public class Strings {
     public static let XL = "XL"
     public static let XL2 = "XL2"
     
+    // Text Sizes
     public static let Headline = "Headline"
     public static let Subheadline = "Subheadline"
     public static let Body = "Body"

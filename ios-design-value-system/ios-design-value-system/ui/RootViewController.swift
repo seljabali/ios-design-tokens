@@ -6,7 +6,6 @@ private let ANIMATION_DURATION = 0.3
 class RootViewController: BaseViewController {
     
     private var current: UIViewController
-    override var vclLoggingName: String { return RootViewController.simpleClassName }
     
     init() {
         current = HomeNavigationController()
