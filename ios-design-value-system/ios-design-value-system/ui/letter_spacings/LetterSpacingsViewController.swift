@@ -43,9 +43,4 @@ class LetterSpacingsViewController : BaseViewController, UITableViewDelegate, UI
             make.bottom.equalTo(view.safeAreaLayoutGuide).offset(-VerticalSpacings.m)
         }
     }
-
-    private func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        print("You tapped cell number \(indexPath.row).")
-    }
-
 }

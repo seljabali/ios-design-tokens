@@ -15,9 +15,6 @@ extension String {
     }
     
     func withLetterSpacing(of value: Float) -> NSAttributedString {
-//        let attributedString: NSMutableAttributedString = NSMutableAttributedString(string: self)
-//        attributedString.addAttribute(NSAttributedString.Key.kern, value: value, range: NSMakeRange(0, count))
-//        return attributedString
-        return NSAttributedString(string: self, attributes: [.kern: value])
+        NSAttributedString(string: self, attributes: [.kern: value])
     }
 }

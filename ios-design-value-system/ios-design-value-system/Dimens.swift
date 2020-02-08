@@ -12,4 +12,7 @@ struct Dimens {
     static let TextSizesTableViewCellHeight = 120
     
     static let LetterSpacingsCellViewHeight = 140
+    
+    static let CornerRadiusButtonHeight = 40
+    static let CornerRadiusButtonWidth = 60
 }

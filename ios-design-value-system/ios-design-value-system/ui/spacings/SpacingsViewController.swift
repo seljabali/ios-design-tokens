@@ -1,7 +1,6 @@
 import Foundation
 
 class SpacingsViewController: BaseViewController {
-    
     private let verticalSpacingPageItem = LandingPageItem()
     private let horizontalSpacingsPageItem = LandingPageItem()
     private let paddingsPageItem = LandingPageItem()
