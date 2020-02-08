@@ -25,6 +25,8 @@
 		68347BA823EE2EE900A2DC8E /* VerticalCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347BA723EE2EE900A2DC8E /* VerticalCellView.swift */; };
 		68347BAA23EE63CA00A2DC8E /* TextSizesItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347BA923EE63CA00A2DC8E /* TextSizesItems.swift */; };
 		68347BAC23EE64CC00A2DC8E /* TextSizeCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347BAB23EE64CC00A2DC8E /* TextSizeCellView.swift */; };
+		68347BAE23EE73B500A2DC8E /* LetterSpacingItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347BAD23EE73B500A2DC8E /* LetterSpacingItems.swift */; };
+		68347BB023EE751400A2DC8E /* LetterSpacingCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347BAF23EE751400A2DC8E /* LetterSpacingCellView.swift */; };
 		6867AB602343F41800A32328 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB5F2343F41800A32328 /* RootViewController.swift */; };
 		6867AB682343F5BA00A32328 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB672343F5BA00A32328 /* Logger.swift */; };
 		6867AB722343F63B00A32328 /* PassThroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB712343F63B00A32328 /* PassThroughView.swift */; };
@@ -85,6 +87,8 @@
 		68347BA723EE2EE900A2DC8E /* VerticalCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalCellView.swift; sourceTree = "<group>"; };
 		68347BA923EE63CA00A2DC8E /* TextSizesItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSizesItems.swift; sourceTree = "<group>"; };
 		68347BAB23EE64CC00A2DC8E /* TextSizeCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSizeCellView.swift; sourceTree = "<group>"; };
+		68347BAD23EE73B500A2DC8E /* LetterSpacingItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterSpacingItems.swift; sourceTree = "<group>"; };
+		68347BAF23EE751400A2DC8E /* LetterSpacingCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterSpacingCellView.swift; sourceTree = "<group>"; };
 		6867AB5F2343F41800A32328 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		6867AB672343F5BA00A32328 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		6867AB712343F63B00A32328 /* PassThroughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassThroughView.swift; sourceTree = "<group>"; };
@@ -222,6 +226,8 @@
 			isa = PBXGroup;
 			children = (
 				68347B9B23EDDF7C00A2DC8E /* LetterSpacingsViewController.swift */,
+				68347BAD23EE73B500A2DC8E /* LetterSpacingItems.swift */,
+				68347BAF23EE751400A2DC8E /* LetterSpacingCellView.swift */,
 			);
 			path = letter_spacings;
 			sourceTree = "<group>";
@@ -509,6 +515,7 @@
 				A21C3795A57A27685F19529F /* LandingPageViewController.swift in Sources */,
 				68347BA023EDE6A300A2DC8E /* HorizontalSpacingItems.swift in Sources */,
 				6867AB742343F6B800A32328 /* BaseViewController.swift in Sources */,
+				68347BB023EE751400A2DC8E /* LetterSpacingCellView.swift in Sources */,
 				68347BA223EE172C00A2DC8E /* HorizontalBlockView.swift in Sources */,
 				6867AB762343F6E600A32328 /* CollectionExtensions.swift in Sources */,
 				6867AB942343FA4E00A32328 /* HomeNavigationController.swift in Sources */,
@@ -535,6 +542,7 @@
 				6867AB7E2343F78700A32328 /* StringExtensions.swift in Sources */,
 				68347B9E23EDE3D700A2DC8E /* HorizontalCellView.swift in Sources */,
 				6867AB802343F7A000A32328 /* SwiftExtensions.swift in Sources */,
+				68347BAE23EE73B500A2DC8E /* LetterSpacingItems.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

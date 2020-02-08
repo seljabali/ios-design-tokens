@@ -10,4 +10,6 @@ struct Dimens {
     static let VerticalBarWidth = 40
     
     static let TextSizesTableViewCellHeight = 120
+    
+    static let LetterSpacingsCellViewHeight = 140
 }
