@@ -1,6 +1,9 @@
 import Foundation
 
-struct Dimens {
+public struct Dimens {
+    static let LandingPageImageHeight = 60
+    static let LandingPageImageWidth = 60
+    
     static let HorizontalTableViewCellHeight = 20
     
     static let HorizontalBarHeight = 20

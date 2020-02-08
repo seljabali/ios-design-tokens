@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A60394D8735DBCB8A66A50F /* Pods_ios_design_value_system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F5EAD922415AB6F3B10C96 /* Pods_ios_design_value_system.framework */; };
-		68347B8523ED06F100A2DC8E /* LandingPageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B8423ED06F100A2DC8E /* LandingPageItem.swift */; };
+		68347B8523ED06F100A2DC8E /* LandingPageItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B8423ED06F100A2DC8E /* LandingPageItemView.swift */; };
 		68347B8723ED0EDE00A2DC8E /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B8623ED0EDE00A2DC8E /* Strings.swift */; };
 		68347B8A23EDD3D500A2DC8E /* SpacingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B8923EDD3D500A2DC8E /* SpacingsViewController.swift */; };
 		68347B8E23EDD5DA00A2DC8E /* HorizontalSpacingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B8D23EDD5DA00A2DC8E /* HorizontalSpacingsViewController.swift */; };
@@ -29,6 +29,8 @@
 		68347BB023EE751400A2DC8E /* LetterSpacingCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347BAF23EE751400A2DC8E /* LetterSpacingCellView.swift */; };
 		68347BB223EE824E00A2DC8E /* CornerRadiusItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347BB123EE824E00A2DC8E /* CornerRadiusItems.swift */; };
 		68347BB423EE842700A2DC8E /* CornerRadiusCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347BB323EE842700A2DC8E /* CornerRadiusCellView.swift */; };
+		68347BB623EF3C8C00A2DC8E /* LandingPageItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347BB523EF3C8C00A2DC8E /* LandingPageItems.swift */; };
+		68347BB823EF3D8A00A2DC8E /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347BB723EF3D8A00A2DC8E /* Images.swift */; };
 		6867AB602343F41800A32328 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB5F2343F41800A32328 /* RootViewController.swift */; };
 		6867AB682343F5BA00A32328 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB672343F5BA00A32328 /* Logger.swift */; };
 		6867AB722343F63B00A32328 /* PassThroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB712343F63B00A32328 /* PassThroughView.swift */; };
@@ -72,7 +74,7 @@
 		01F5EAD922415AB6F3B10C96 /* Pods_ios_design_value_system.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_design_value_system.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1021786F846F70AEB0DC0EB6 /* Pods-template.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-template.release.xcconfig"; path = "Target Support Files/Pods-template/Pods-template.release.xcconfig"; sourceTree = "<group>"; };
 		312D72F8FCD73BA87629F214 /* Pods-ios-design-value-system.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-design-value-system.release.xcconfig"; path = "Target Support Files/Pods-ios-design-value-system/Pods-ios-design-value-system.release.xcconfig"; sourceTree = "<group>"; };
-		68347B8423ED06F100A2DC8E /* LandingPageItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageItem.swift; sourceTree = "<group>"; };
+		68347B8423ED06F100A2DC8E /* LandingPageItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageItemView.swift; sourceTree = "<group>"; };
 		68347B8623ED0EDE00A2DC8E /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		68347B8923EDD3D500A2DC8E /* SpacingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacingsViewController.swift; sourceTree = "<group>"; };
 		68347B8D23EDD5DA00A2DC8E /* HorizontalSpacingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSpacingsViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +95,8 @@
 		68347BAF23EE751400A2DC8E /* LetterSpacingCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterSpacingCellView.swift; sourceTree = "<group>"; };
 		68347BB123EE824E00A2DC8E /* CornerRadiusItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusItems.swift; sourceTree = "<group>"; };
 		68347BB323EE842700A2DC8E /* CornerRadiusCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusCellView.swift; sourceTree = "<group>"; };
+		68347BB523EF3C8C00A2DC8E /* LandingPageItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageItems.swift; sourceTree = "<group>"; };
+		68347BB723EF3D8A00A2DC8E /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		6867AB5F2343F41800A32328 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		6867AB672343F5BA00A32328 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		6867AB712343F63B00A32328 /* PassThroughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassThroughView.swift; sourceTree = "<group>"; };
@@ -162,7 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				A21C39FC583B4AA93CB62EE3 /* LandingPageViewController.swift */,
-				68347B8423ED06F100A2DC8E /* LandingPageItem.swift */,
+				68347B8423ED06F100A2DC8E /* LandingPageItemView.swift */,
+				68347BB523EF3C8C00A2DC8E /* LandingPageItems.swift */,
 			);
 			path = landing_page;
 			sourceTree = "<group>";
@@ -310,6 +315,7 @@
 				A21C31602C03A3E807D1DF03 /* AppDelegate.swift */,
 				A21C35BF00BD5A2D2A5F3287 /* utilities */,
 				A21C37F959A7A57771BB4AF4 /* Dimens.swift */,
+				68347BB723EF3D8A00A2DC8E /* Images.swift */,
 				68347B8623ED0EDE00A2DC8E /* Strings.swift */,
 			);
 			path = "ios-design-value-system";
@@ -518,9 +524,11 @@
 				6867AB722343F63B00A32328 /* PassThroughView.swift in Sources */,
 				68347BA823EE2EE900A2DC8E /* VerticalCellView.swift in Sources */,
 				A21C3B74A21BE7BA4B9F4975 /* AppDelegate.swift in Sources */,
+				68347BB823EF3D8A00A2DC8E /* Images.swift in Sources */,
 				A21C3795A57A27685F19529F /* LandingPageViewController.swift in Sources */,
 				68347BA023EDE6A300A2DC8E /* HorizontalSpacingItems.swift in Sources */,
 				68347BB423EE842700A2DC8E /* CornerRadiusCellView.swift in Sources */,
+				68347BB623EF3C8C00A2DC8E /* LandingPageItems.swift in Sources */,
 				6867AB742343F6B800A32328 /* BaseViewController.swift in Sources */,
 				68347BB023EE751400A2DC8E /* LetterSpacingCellView.swift in Sources */,
 				68347BA223EE172C00A2DC8E /* HorizontalBlockView.swift in Sources */,
@@ -537,7 +545,7 @@
 				68347B8723ED0EDE00A2DC8E /* Strings.swift in Sources */,
 				68347BA423EE2DF000A2DC8E /* VerticalBlockView.swift in Sources */,
 				68347B9623EDD8D700A2DC8E /* CornerRadiusesViewController.swift in Sources */,
-				68347B8523ED06F100A2DC8E /* LandingPageItem.swift in Sources */,
+				68347B8523ED06F100A2DC8E /* LandingPageItemView.swift in Sources */,
 				6867AB862343F82800A32328 /* UIViewControllerExtensions.swift in Sources */,
 				6867AB822343F7F100A32328 /* UILabelExtensions.swift in Sources */,
 				6867AB842343F80600A32328 /* UITableViewExtensions.swift in Sources */,

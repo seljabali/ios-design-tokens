@@ -1,6 +1,6 @@
 import Foundation
 
-class Strings {
+public class Strings {
     public static let DesignValueSystem = "Design Value System"
     public static let Spacings = "Spacings"
     public static let TextSizes = "Text Sizes"
