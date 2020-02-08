@@ -2,8 +2,8 @@ import Foundation
 import UIKit
 import SnapKit
 
-class HorizontalTableViewCell: UITableViewCell {
-    public static let IDENTIFIER = HorizontalTableViewCell.simpleClassName
+class HorizontalCellView: UITableViewCell {
+    public static let IDENTIFIER = HorizontalCellView.simpleClassName
     
     private let titleUILabel = UILabel()
     private let sizeUILabel = UILabel()
@@ -35,6 +35,7 @@ class HorizontalTableViewCell: UITableViewCell {
     
     private func initializeView() {
         backgroundColor = .white
+        isUserInteractionEnabled = false
         titleUILabel.apply {
             setTextAppearance(TextAppearances.Body)
             addSubview($0)
@@ -59,7 +60,7 @@ class HorizontalTableViewCell: UITableViewCell {
     private func setConstraints() {
         titleUILabel.snp.remakeConstraints { (make) -> Void in
             make.top.equalTo(self.safeAreaLayoutGuide).offset(VerticalSpacings.m)
-            make.left.equalTo(self.safeAreaLayoutGuide).offset(HorizontalSpacings.m)
+            make.left.equalTo(self.safeAreaLayoutGuide)
         }
         sizeUILabel.snp.remakeConstraints { (make) -> Void in
             make.top.equalTo(self.safeAreaLayoutGuide).offset(VerticalSpacings.m)

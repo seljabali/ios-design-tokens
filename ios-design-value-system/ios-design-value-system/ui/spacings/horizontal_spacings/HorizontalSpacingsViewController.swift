@@ -21,7 +21,7 @@ class HorizontalSpacingsViewController : BaseViewController, UITableViewDelegate
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: HorizontalTableViewCell.IDENTIFIER) as! HorizontalTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: HorizontalCellView.IDENTIFIER) as! HorizontalCellView
         let position = indexPath.row
         cell.setHorizontalSpacingItem(HorizontalSpacingsItems.allCases[position])
         return cell
@@ -35,22 +35,17 @@ class HorizontalSpacingsViewController : BaseViewController, UITableViewDelegate
             $0.removeEmptyCellDividerLines()
             $0.rowHeight = UITableView.automaticDimension
             $0.estimatedRowHeight = Dimens.HorizontalTableViewCellHeight.cgFloat
-            $0.register(HorizontalTableViewCell.self, forCellReuseIdentifier: HorizontalTableViewCell.IDENTIFIER)
+            $0.register(HorizontalCellView.self, forCellReuseIdentifier: HorizontalCellView.IDENTIFIER)
             view.addSubview($0)
         }
     }
 
     private func setConstraints() {
         tableView.snp.makeConstraints { (make) -> Void in
-            make.top.equalTo(view.safeAreaLayoutGuide).offset(HorizontalSpacings.m)
+            make.top.equalTo(view.safeAreaLayoutGuide).offset(VerticalSpacings.m)
             make.left.equalTo(view.safeAreaLayoutGuide).offset(HorizontalSpacings.m)
             make.right.equalTo(view.safeAreaLayoutGuide).offset(-HorizontalSpacings.m)
             make.bottom.equalTo(view.safeAreaLayoutGuide).offset(-VerticalSpacings.m)
         }
     }
-
-    private func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        print("You tapped cell number \(indexPath.row).")
-    }
-
 }

@@ -58,3 +58,13 @@ struct CornerRadius {
     static let m = 8
     static let l = 10
 }
+
+struct LetterSpacings {
+    static let xxs: Float = -1.5
+    static let xs: Float = -1.0
+    static let s: Float = -0.5
+    static let m: Float = 0.0
+    static let l: Float = 1.0
+    static let xl: Float = 2.0
+    static let xl2: Float = 3.0
+}

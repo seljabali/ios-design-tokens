@@ -23,7 +23,6 @@ class HomeNavigationController: UINavigationController, UINavigationBarDelegate 
         }
         return true
     }
-
 }
 
 protocol NavigationControllerBackButtonDelegate {

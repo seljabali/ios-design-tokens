@@ -13,4 +13,8 @@ extension String {
         attributedText.addAttribute(NSAttributedString.Key.underlineStyle , value: NSUnderlineStyle.single.rawValue, range: textRange)
         return attributedText
     }
+    
+    func withLetterSpacing(of value: Float) -> NSAttributedString {
+        NSAttributedString(string: self, attributes: [.kern: value])
+    }
 }
