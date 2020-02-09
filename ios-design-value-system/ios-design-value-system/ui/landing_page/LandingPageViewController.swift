@@ -41,23 +41,23 @@ class LandingPageViewController: BaseViewController {
 
     private func setConstraints() {
         spacingsPageItem.snp.makeConstraints { (make) -> Void in
-            make.top.equalTo(view.safeAreaLayoutGuide.snp.top).offset(HorizontalSpacings.m)
-            make.left.equalTo(view.safeAreaLayoutGuide.snp.left).offset(HorizontalSpacings.m)
+            make.top.equalTo(view.safeAreaLayoutGuide).offset(VerticalSpacings.m)
+            make.left.equalTo(view.safeAreaLayoutGuide).offset(HorizontalSpacings.m)
             make.right.equalTo(view.safeAreaLayoutGuide.snp.centerX)
         }
         textSizesPageItem.snp.makeConstraints { (make) -> Void in
-            make.top.equalTo(view.safeAreaLayoutGuide.snp.top).offset(HorizontalSpacings.m)
-            make.right.equalTo(view.safeAreaLayoutGuide.snp.right).offset(-HorizontalSpacings.m)
+            make.top.equalTo(view.safeAreaLayoutGuide).offset(VerticalSpacings.m)
+            make.right.equalTo(view.safeAreaLayoutGuide).offset(-HorizontalSpacings.m)
             make.left.equalTo(view.safeAreaLayoutGuide.snp.centerX)
         }
         cornerRadiusesPageItem.snp.makeConstraints { (make) -> Void in
-            make.top.equalTo(spacingsPageItem.safeAreaLayoutGuide.snp.bottom).offset(HorizontalSpacings.m)
-            make.left.equalTo(view.safeAreaLayoutGuide.snp.left).offset(HorizontalSpacings.m)
+            make.top.equalTo(spacingsPageItem.safeAreaLayoutGuide.snp.bottom).offset(VerticalSpacings.m)
+            make.left.equalTo(view.safeAreaLayoutGuide).offset(HorizontalSpacings.m)
             make.right.equalTo(view.safeAreaLayoutGuide.snp.centerX)
         }
         letterSpacingsPageItem.snp.makeConstraints { (make) -> Void in
-            make.top.equalTo(textSizesPageItem.safeAreaLayoutGuide.snp.bottom).offset(HorizontalSpacings.m)
-            make.right.equalTo(view.safeAreaLayoutGuide.snp.right).offset(-HorizontalSpacings.m)
+            make.top.equalTo(textSizesPageItem.safeAreaLayoutGuide.snp.bottom).offset(VerticalSpacings.m)
+            make.right.equalTo(view.safeAreaLayoutGuide).offset(-HorizontalSpacings.m)
             make.left.equalTo(view.safeAreaLayoutGuide.snp.centerX)
         }
     }

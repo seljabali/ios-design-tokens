@@ -59,25 +59,25 @@ class HorizontalCellView: UITableViewCell {
 
     private func setConstraints() {
         titleUILabel.snp.remakeConstraints { (make) -> Void in
-            make.top.equalTo(self.safeAreaLayoutGuide).offset(VerticalSpacings.m)
-            make.left.equalTo(self.safeAreaLayoutGuide)
+            make.top.equalTo(safeAreaLayoutGuide).offset(VerticalSpacings.m)
+            make.left.equalTo(safeAreaLayoutGuide)
         }
         sizeUILabel.snp.remakeConstraints { (make) -> Void in
-            make.top.equalTo(self.safeAreaLayoutGuide).offset(VerticalSpacings.m)
-            make.centerX.equalTo(self.safeAreaLayoutGuide)
+            make.top.equalTo(safeAreaLayoutGuide).offset(VerticalSpacings.m)
+            make.centerX.equalTo(safeAreaLayoutGuide)
         }
         leftPaddingView.snp.remakeConstraints { (make) -> Void in
             make.top.equalTo(titleUILabel.snp.bottom).offset(VerticalSpacings.m)
             make.height.equalTo(Dimens.HorizontalBarHeight)
             make.width.equalTo(Dimens.HorizontalBarWidth)
             make.right.equalTo(horizontaltPaddingView.snp.left)
-            make.bottom.equalTo(self.safeAreaLayoutGuide).offset(-VerticalSpacings.m)
+            make.bottom.equalTo(safeAreaLayoutGuide).offset(-VerticalSpacings.m)
         }
         horizontaltPaddingView.snp.remakeConstraints { (make) -> Void in
             make.top.bottom.equalTo(leftPaddingView)
             make.height.equalTo(Dimens.HorizontalBarHeight)
             make.width.equalTo(horizontalPaddingValue)
-            make.centerX.equalTo(self.safeAreaLayoutGuide)
+            make.centerX.equalTo(safeAreaLayoutGuide)
         }
         rightPaddingView.snp.remakeConstraints { (make) -> Void in
             make.top.bottom.equalTo(leftPaddingView)

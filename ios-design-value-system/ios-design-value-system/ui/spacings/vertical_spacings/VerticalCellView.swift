@@ -58,8 +58,8 @@ class VerticalViewCell: UITableViewCell {
 
     private func setConstraints() {
         titleUILabel.snp.remakeConstraints { (make) -> Void in
-            make.top.equalTo(self.safeAreaLayoutGuide).offset(VerticalSpacings.m)
-            make.left.equalTo(self.safeAreaLayoutGuide).offset(HorizontalSpacings.m)
+            make.top.equalTo(safeAreaLayoutGuide).offset(VerticalSpacings.m)
+            make.left.equalTo(safeAreaLayoutGuide).offset(HorizontalSpacings.m)
         }
         sizeUILabel.snp.remakeConstraints { (make) -> Void in
             make.top.equalTo(titleUILabel.snp.bottom).offset(VerticalSpacings.m)

@@ -37,7 +37,7 @@ class LetterSpacingsViewController : BaseViewController, UITableViewDelegate, UI
 
     private func setConstraints() {
         tableView.snp.makeConstraints { (make) -> Void in
-            make.top.equalTo(view.safeAreaLayoutGuide).offset(HorizontalSpacings.m)
+            make.top.equalTo(view.safeAreaLayoutGuide).offset(VerticalSpacings.m)
             make.left.equalTo(view.safeAreaLayoutGuide).offset(HorizontalSpacings.m)
             make.right.equalTo(view.safeAreaLayoutGuide).offset(-HorizontalSpacings.m)
             make.bottom.equalTo(view.safeAreaLayoutGuide).offset(-VerticalSpacings.m)

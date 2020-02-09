@@ -36,15 +36,15 @@ class LandingPageItemView: UIView {
 
     private func setConstraints() {
         itemImage.snp.makeConstraints { (make) -> Void in
-            make.top.equalTo(self.safeAreaLayoutGuide.snp.top).offset(VerticalSpacings.m)
-            make.centerX.equalTo(self.safeAreaLayoutGuide)
+            make.top.equalTo(safeAreaLayoutGuide).offset(VerticalSpacings.m)
+            make.centerX.equalTo(safeAreaLayoutGuide)
             make.height.equalTo(Dimens.LandingPageImageHeight)
             make.width.equalTo(Dimens.LandingPageImageWidth)
         }
         itemTitle.snp.makeConstraints { (make) -> Void in
             make.top.equalTo(itemImage.snp.bottom).offset(VerticalSpacings.s)
-            make.centerX.equalTo(self.safeAreaLayoutGuide)
-            make.bottom.equalTo(self.safeAreaLayoutGuide.snp.bottom).offset(-VerticalSpacings.m)
+            make.centerX.equalTo(safeAreaLayoutGuide)
+            make.bottom.equalTo(safeAreaLayoutGuide).offset(-VerticalSpacings.m)
         }
     }
     
