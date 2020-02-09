@@ -1,6 +1,6 @@
 # iOS Design Value System
 
-iOS app that visualizes common design values such as paddings for both designers & developers.
+iOS app that visualizes common design values for both designers & developers.
 
 <img src="https://github.com/seljabali/ios-design-value-system/raw/master/screenshots/landing_page.png" alt="" data-canonical-src="" width="400" height="600" />
 
