@@ -30,5 +30,8 @@ iOS app that visualizes common design values for both designers & developers.
 ### Letter Spacings
 <img src="https://github.com/seljabali/ios-design-value-system/raw/master/screenshots/letter_spacing.png" alt="" data-canonical-src="" width="400" height="600" />
 
+### Colors
+<img src="https://github.com/seljabali/ios-design-value-system/raw/master/screenshots/colors.png" alt="" data-canonical-src="" width="400" height="600" />
+
 ## LICENSE
 This is absolutely FREE. Feel free to include and in our own app without credit. If you liked this app however, do give the repo a star please!
