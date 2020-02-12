@@ -30,6 +30,9 @@
 		68347BB423EE842700A2DC8E /* CornerRadiusCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347BB323EE842700A2DC8E /* CornerRadiusCellView.swift */; };
 		68347BB623EF3C8C00A2DC8E /* LandingPageItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347BB523EF3C8C00A2DC8E /* LandingPageItems.swift */; };
 		68347BB823EF3D8A00A2DC8E /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347BB723EF3D8A00A2DC8E /* Images.swift */; };
+		6850E11A23F38370004BCAD6 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6850E11923F38370004BCAD6 /* ColorsViewController.swift */; };
+		6850E11C23F383EE004BCAD6 /* ColorItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6850E11B23F383EE004BCAD6 /* ColorItems.swift */; };
+		6850E11E23F38664004BCAD6 /* ColorCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6850E11D23F38664004BCAD6 /* ColorCellView.swift */; };
 		6867AB602343F41800A32328 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB5F2343F41800A32328 /* RootViewController.swift */; };
 		6867AB742343F6B800A32328 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB732343F6B800A32328 /* BaseViewController.swift */; };
 		6867AB7A2343F71B00A32328 /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867AB792343F71B00A32328 /* NSObjectExtensions.swift */; };
@@ -91,6 +94,9 @@
 		68347BB323EE842700A2DC8E /* CornerRadiusCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusCellView.swift; sourceTree = "<group>"; };
 		68347BB523EF3C8C00A2DC8E /* LandingPageItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageItems.swift; sourceTree = "<group>"; };
 		68347BB723EF3D8A00A2DC8E /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		6850E11923F38370004BCAD6 /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		6850E11B23F383EE004BCAD6 /* ColorItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorItems.swift; sourceTree = "<group>"; };
+		6850E11D23F38664004BCAD6 /* ColorCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCellView.swift; sourceTree = "<group>"; };
 		6867AB5F2343F41800A32328 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		6867AB732343F6B800A32328 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		6867AB792343F71B00A32328 /* NSObjectExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtensions.swift; sourceTree = "<group>"; };
@@ -224,9 +230,20 @@
 			path = letter_spacings;
 			sourceTree = "<group>";
 		};
+		6850E11823F3835A004BCAD6 /* colors */ = {
+			isa = PBXGroup;
+			children = (
+				6850E11923F38370004BCAD6 /* ColorsViewController.swift */,
+				6850E11B23F383EE004BCAD6 /* ColorItems.swift */,
+				6850E11D23F38664004BCAD6 /* ColorCellView.swift */,
+			);
+			path = colors;
+			sourceTree = "<group>";
+		};
 		6867AB5E2343F36B00A32328 /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				6850E11823F3835A004BCAD6 /* colors */,
 				68347B9A23EDDF6C00A2DC8E /* letter_spacings */,
 				68347B9423EDD8C500A2DC8E /* corner_radiuses */,
 				68347B8F23EDD76400A2DC8E /* text_sizes */,
@@ -484,6 +501,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6850E11E23F38664004BCAD6 /* ColorCellView.swift in Sources */,
 				68347BAC23EE64CC00A2DC8E /* TextSizeCellView.swift in Sources */,
 				6867AB882343F84100A32328 /* UIViewExtensions.swift in Sources */,
 				6867AB8A2343F85D00A32328 /* PresetColors.swift in Sources */,
@@ -496,6 +514,7 @@
 				68347BB423EE842700A2DC8E /* CornerRadiusCellView.swift in Sources */,
 				68347BB623EF3C8C00A2DC8E /* LandingPageItems.swift in Sources */,
 				6867AB742343F6B800A32328 /* BaseViewController.swift in Sources */,
+				6850E11A23F38370004BCAD6 /* ColorsViewController.swift in Sources */,
 				68347BB023EE751400A2DC8E /* LetterSpacingCellView.swift in Sources */,
 				68347BA223EE172C00A2DC8E /* HorizontalBlockView.swift in Sources */,
 				6867AB942343FA4E00A32328 /* HomeNavigationController.swift in Sources */,
@@ -510,6 +529,7 @@
 				68347B8723ED0EDE00A2DC8E /* Strings.swift in Sources */,
 				68347BA423EE2DF000A2DC8E /* VerticalBlockView.swift in Sources */,
 				68347B9623EDD8D700A2DC8E /* CornerRadiusesViewController.swift in Sources */,
+				6850E11C23F383EE004BCAD6 /* ColorItems.swift in Sources */,
 				68347B8523ED06F100A2DC8E /* LandingPageItemView.swift in Sources */,
 				6867AB862343F82800A32328 /* UIViewControllerExtensions.swift in Sources */,
 				6867AB842343F80600A32328 /* UITableViewExtensions.swift in Sources */,

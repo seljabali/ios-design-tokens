@@ -2,7 +2,7 @@ import Foundation
 import UIKit
 
 public enum LandingPageItems: Int, CaseIterable {
-    case Spacings, TextSizes, CornerRadiuses, LetterSpacings;
+    case Spacings, TextSizes, CornerRadiuses, LetterSpacings, Colors;
     
     public var title: String {
         switch self {
@@ -14,6 +14,8 @@ public enum LandingPageItems: Int, CaseIterable {
             return Strings.CornerRadiuses
         case .LetterSpacings:
             return Strings.LetterSpacings
+        case .Colors:
+            return Strings.Colors
         }
     }
 
@@ -27,6 +29,8 @@ public enum LandingPageItems: Int, CaseIterable {
              return  UIImage(named: Images.CornerRadius)!
          case .LetterSpacings:
              return  UIImage(named: Images.LetterSpacing)!
+        case .Colors:
+            return  UIImage(named: Images.Colors)!
          }
      }
 

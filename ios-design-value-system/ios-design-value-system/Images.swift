@@ -7,4 +7,5 @@ public struct Images {
     public static let Padding = "padding"
     public static let CornerRadius = "corner_radius"
     public static let TextSize = "text_size"
+    public static let Colors = "colors"
 }

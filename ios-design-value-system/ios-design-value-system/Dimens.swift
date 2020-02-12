@@ -25,4 +25,7 @@ public struct Dimens {
     // Corner Radiuses
     static let CornerRadiusButtonHeight = 40
     static let CornerRadiusButtonWidth = 60
+    
+    // Colors
+    static let ColorViewCellHeight = 100
 }

@@ -8,6 +8,7 @@ public class Strings {
     public static let CornerRadiuses = "Corner Radiuses"
     public static let Elevations = "Elevations"
     public static let LetterSpacings = "Letter Spacings"
+    public static let Colors = "Colors"
     
     // Spacings
     public static let VerticalSpacings = "Vertical Spacings"
@@ -32,4 +33,11 @@ public class Strings {
     public static let Caption2 = "Caption2"
     
     public static let SampleText = "The quick brown fox jumps over the lazy dog."
+    
+    // Colors
+    public static let DarkBlue = "Dark Blue"
+    public static let Blue = "Blue"
+    public static let Aqua = "Aqua"
+    public static let Gainsboro = "Gainsboro"
+    public static let Yellow = "Yellow"
 }
