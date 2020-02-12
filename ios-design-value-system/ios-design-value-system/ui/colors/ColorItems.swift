@@ -19,21 +19,6 @@ enum ColorItems: Int, CaseIterable {
         }
     }
     
-    var colorHexValue: String {
-        switch self {
-        case .darkBlue:
-            return PresetColors.darkBlue.hexString
-        case .blue:
-            return PresetColors.blue.hexString
-        case .aqua:
-            return PresetColors.aqua.hexString
-        case .gainsboro:
-            return PresetColors.gainsboro.hexString
-        case .yellow:
-            return PresetColors.yellow.hexString
-        }
-    }
-    
     var title: String {
         switch self {
         case .darkBlue:

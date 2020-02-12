@@ -24,7 +24,7 @@ class ColorCellView: UITableViewCell {
     
     public func setColorItem(_ colorItem: ColorItems) {
         titleUILabel.text = colorItem.title
-        valueUILabel.text = colorItem.colorHexValue
+        valueUILabel.text = colorItem.colorValue.hexString
         backgroundColor = colorItem.colorValue
         setNeedsDisplay()
     }
@@ -49,12 +49,12 @@ class ColorCellView: UITableViewCell {
 
     private func setConstraints() {
         titleUILabel.snp.remakeConstraints { (make) -> Void in
-            make.bottom.equalTo(safeAreaLayoutGuide).offset(-VerticalSpacings.xs)
-            make.left.equalTo(safeAreaLayoutGuide).offset(HorizontalSpacings.xs)
+            make.bottom.equalTo(safeAreaLayoutGuide).offset(-VerticalSpacings.s)
+            make.left.equalTo(safeAreaLayoutGuide).offset(HorizontalSpacings.s)
         }
         valueUILabel.snp.remakeConstraints { (make) -> Void in
-            make.top.equalTo(safeAreaLayoutGuide).offset(VerticalSpacings.xs)
-            make.right.equalTo(safeAreaLayoutGuide).offset(-HorizontalSpacings.xs)
+            make.top.equalTo(safeAreaLayoutGuide).offset(VerticalSpacings.s)
+            make.right.equalTo(safeAreaLayoutGuide).offset(-HorizontalSpacings.s)
         }
     }
 }
