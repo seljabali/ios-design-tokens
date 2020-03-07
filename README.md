@@ -34,4 +34,4 @@ iOS app that visualizes common design values for both designers & developers.
 <img src="https://github.com/seljabali/ios-design-value-system/raw/master/screenshots/colors.png" alt="" data-canonical-src="" width="400" height="800" />
 
 ## LICENSE
-This is absolutely FREE. Feel free to include and in our own app without credit. If you liked this app however, do give the repo a star please!
+This is free and unencumbered software released into the public domain.
