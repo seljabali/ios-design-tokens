@@ -2,9 +2,9 @@ import Foundation
 
 public class Strings {
     // Landing Page Items
-    public static let DesignValueSystem = "Design Value System"
+    public static let DesignTokens = "Design Tokens"
     public static let Spacings = "Spacings"
-    public static let TextSizes = "Text Sizes"
+    public static let TextAppearances = "Text Appearances"
     public static let CornerRadiuses = "Corner Radiuses"
     public static let Elevations = "Elevations"
     public static let LetterSpacings = "Letter Spacings"

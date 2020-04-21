@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A21C3F968362B78BDF05FEB0"
-               BuildableName = "ios-design-value-system.app"
-               BlueprintName = "ios-design-value-system"
-               ReferencedContainer = "container:ios-design-value-system.xcodeproj">
+               BuildableName = "ios-design-tokens.app"
+               BlueprintName = "ios-design-tokens"
+               ReferencedContainer = "container:ios-design-tokens.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A21C397079085DE44125F0E2"
-               BuildableName = "ios-design-value-systemTests.xctest"
-               BlueprintName = "ios-design-value-systemTests"
-               ReferencedContainer = "container:ios-design-value-system.xcodeproj">
+               BuildableName = "ios-design-tokensTests.xctest"
+               BlueprintName = "ios-design-tokensTests"
+               ReferencedContainer = "container:ios-design-tokens.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A21C31E3704353B5ECCC71BD"
-               BuildableName = "ios-design-value-systemUITests.xctest"
-               BlueprintName = "ios-design-value-systemUITests"
-               ReferencedContainer = "container:ios-design-value-system.xcodeproj">
+               BuildableName = "ios-design-tokensUITests.xctest"
+               BlueprintName = "ios-design-tokensUITests"
+               ReferencedContainer = "container:ios-design-tokens.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A21C3F968362B78BDF05FEB0"
-            BuildableName = "ios-design-value-system.app"
-            BlueprintName = "ios-design-value-system"
-            ReferencedContainer = "container:ios-design-value-system.xcodeproj">
+            BuildableName = "ios-design-tokens.app"
+            BlueprintName = "ios-design-tokens"
+            ReferencedContainer = "container:ios-design-tokens.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A21C3F968362B78BDF05FEB0"
-            BuildableName = "ios-design-value-system.app"
-            BlueprintName = "ios-design-value-system"
-            ReferencedContainer = "container:ios-design-value-system.xcodeproj">
+            BuildableName = "ios-design-tokens.app"
+            BlueprintName = "ios-design-tokens"
+            ReferencedContainer = "container:ios-design-tokens.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -9,7 +9,7 @@ public enum LandingPageItems: Int, CaseIterable {
         case .Spacings:
             return Strings.Spacings
         case .TextSizes:
-            return Strings.TextSizes
+            return Strings.TextAppearances
         case .CornerRadiuses:
             return Strings.CornerRadiuses
         case .LetterSpacings:

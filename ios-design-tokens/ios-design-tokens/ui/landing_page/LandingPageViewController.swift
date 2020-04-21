@@ -11,7 +11,7 @@ class LandingPageViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = Strings.DesignValueSystem
+        self.title = Strings.DesignTokens
         initializeViews()
         setConstraints()
     }

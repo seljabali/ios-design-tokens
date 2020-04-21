@@ -7,7 +7,7 @@ class TextSizesViewController : BaseViewController, UITableViewDelegate, UITable
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = Strings.TextSizes
+        self.title = Strings.TextAppearances
         initializeViews()
         setConstraints()
     }

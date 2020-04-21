@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_ios_design_value_systemVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_ios_design_value_systemVersionString[];
+FOUNDATION_EXPORT double Pods_ios_design_tokensVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_ios_design_tokensVersionString[];
 

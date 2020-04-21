@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A60394D8735DBCB8A66A50F /* Pods_ios_design_value_system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F5EAD922415AB6F3B10C96 /* Pods_ios_design_value_system.framework */; };
+		68159402244E8CD9009F5228 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68159401244E8CD9009F5228 /* Default-568h@2x.png */; };
 		68347B8523ED06F100A2DC8E /* LandingPageItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B8423ED06F100A2DC8E /* LandingPageItemView.swift */; };
 		68347B8723ED0EDE00A2DC8E /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B8623ED0EDE00A2DC8E /* Strings.swift */; };
 		68347B8A23EDD3D500A2DC8E /* SpacingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68347B8923EDD3D500A2DC8E /* SpacingsViewController.swift */; };
@@ -49,6 +49,7 @@
 		A21C3795A57A27685F19529F /* LandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21C39FC583B4AA93CB62EE3 /* LandingPageViewController.swift */; };
 		A21C3B23EF9117B75D0E6749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21C3A3881AB554B9B4B2FEA /* Assets.xcassets */; };
 		A21C3B74A21BE7BA4B9F4975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21C31602C03A3E807D1DF03 /* AppDelegate.swift */; };
+		ABA9970932F67CC7C8B0A115 /* Pods_ios_design_tokens.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EED77D02E7640D17F8CD06C /* Pods_ios_design_tokens.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,9 +70,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01F5EAD922415AB6F3B10C96 /* Pods_ios_design_value_system.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_design_value_system.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1021786F846F70AEB0DC0EB6 /* Pods-template.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-template.release.xcconfig"; path = "Target Support Files/Pods-template/Pods-template.release.xcconfig"; sourceTree = "<group>"; };
 		312D72F8FCD73BA87629F214 /* Pods-ios-design-value-system.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-design-value-system.release.xcconfig"; path = "Target Support Files/Pods-ios-design-value-system/Pods-ios-design-value-system.release.xcconfig"; sourceTree = "<group>"; };
+		45BF421391AC1DFDB524AB16 /* Pods-ios-design-tokens.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-design-tokens.debug.xcconfig"; path = "Target Support Files/Pods-ios-design-tokens/Pods-ios-design-tokens.debug.xcconfig"; sourceTree = "<group>"; };
+		68159401244E8CD9009F5228 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		68347B8423ED06F100A2DC8E /* LandingPageItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageItemView.swift; sourceTree = "<group>"; };
 		68347B8623ED0EDE00A2DC8E /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		68347B8923EDD3D500A2DC8E /* SpacingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacingsViewController.swift; sourceTree = "<group>"; };
@@ -110,12 +112,14 @@
 		6867AB8D2343F88200A32328 /* TextAppearances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAppearances.swift; sourceTree = "<group>"; };
 		6867AB932343FA4E00A32328 /* HomeNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationController.swift; sourceTree = "<group>"; };
 		7A186EFFCA5BDC457B4DD381 /* Pods-template.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-template.debug.xcconfig"; path = "Target Support Files/Pods-template/Pods-template.debug.xcconfig"; sourceTree = "<group>"; };
+		7EED77D02E7640D17F8CD06C /* Pods_ios_design_tokens.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_design_tokens.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80066C37712708AFB8601C33 /* Pods-ios-design-value-system.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-design-value-system.debug.xcconfig"; path = "Target Support Files/Pods-ios-design-value-system/Pods-ios-design-value-system.debug.xcconfig"; sourceTree = "<group>"; };
+		903CB8298A9DBE616B3DB512 /* Pods-ios-design-tokens.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-design-tokens.release.xcconfig"; path = "Target Support Files/Pods-ios-design-tokens/Pods-ios-design-tokens.release.xcconfig"; sourceTree = "<group>"; };
 		A21C31602C03A3E807D1DF03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A21C31C3A53283E16F0C3011 /* ios-design-value-system.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-design-value-system.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A21C325D14288BFD666BC8EA /* ios-design-value-systemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-design-value-systemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21C31C3A53283E16F0C3011 /* ios-design-tokens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-design-tokens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21C325D14288BFD666BC8EA /* ios-design-tokensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-design-tokensUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A21C37F959A7A57771BB4AF4 /* Dimens.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dimens.swift; sourceTree = "<group>"; };
-		A21C38CC23C5572C100AEB0B /* ios-design-value-systemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-design-value-systemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A21C38CC23C5572C100AEB0B /* ios-design-tokensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-design-tokensTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A21C38ED534880497BB07096 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		A21C39FC583B4AA93CB62EE3 /* LandingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageViewController.swift; sourceTree = "<group>"; };
 		A21C3A3881AB554B9B4B2FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -140,7 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A60394D8735DBCB8A66A50F /* Pods_ios_design_value_system.framework in Frameworks */,
+				ABA9970932F67CC7C8B0A115 /* Pods_ios_design_tokens.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +158,8 @@
 				1021786F846F70AEB0DC0EB6 /* Pods-template.release.xcconfig */,
 				80066C37712708AFB8601C33 /* Pods-ios-design-value-system.debug.xcconfig */,
 				312D72F8FCD73BA87629F214 /* Pods-ios-design-value-system.release.xcconfig */,
+				45BF421391AC1DFDB524AB16 /* Pods-ios-design-tokens.debug.xcconfig */,
+				903CB8298A9DBE616B3DB512 /* Pods-ios-design-tokens.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -289,12 +295,12 @@
 		7352EFBFE24D665B279A1EC2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				01F5EAD922415AB6F3B10C96 /* Pods_ios_design_value_system.framework */,
+				7EED77D02E7640D17F8CD06C /* Pods_ios_design_tokens.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A21C349D1E9F0FEB9322E3B0 /* ios-design-value-system */ = {
+		A21C349D1E9F0FEB9322E3B0 /* ios-design-tokens */ = {
 			isa = PBXGroup;
 			children = (
 				6867AB5E2343F36B00A32328 /* ui */,
@@ -306,7 +312,7 @@
 				68347BB723EF3D8A00A2DC8E /* Images.swift */,
 				68347B8623ED0EDE00A2DC8E /* Strings.swift */,
 			);
-			path = "ios-design-value-system";
+			path = "ios-design-tokens";
 			sourceTree = "<group>";
 		};
 		A21C35BF00BD5A2D2A5F3287 /* utilities */ = {
@@ -322,8 +328,9 @@
 		A21C3904012EF5907B93F54D = {
 			isa = PBXGroup;
 			children = (
+				68159401244E8CD9009F5228 /* Default-568h@2x.png */,
 				A21C3C07FEEAD8FDC39DA29B /* Products */,
-				A21C349D1E9F0FEB9322E3B0 /* ios-design-value-system */,
+				A21C349D1E9F0FEB9322E3B0 /* ios-design-tokens */,
 				38CDBD320B64F4F459ED16EE /* Pods */,
 				7352EFBFE24D665B279A1EC2 /* Frameworks */,
 			);
@@ -332,9 +339,9 @@
 		A21C3C07FEEAD8FDC39DA29B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A21C31C3A53283E16F0C3011 /* ios-design-value-system.app */,
-				A21C38CC23C5572C100AEB0B /* ios-design-value-systemTests.xctest */,
-				A21C325D14288BFD666BC8EA /* ios-design-value-systemUITests.xctest */,
+				A21C31C3A53283E16F0C3011 /* ios-design-tokens.app */,
+				A21C38CC23C5572C100AEB0B /* ios-design-tokensTests.xctest */,
+				A21C325D14288BFD666BC8EA /* ios-design-tokensUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -342,9 +349,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A21C31E3704353B5ECCC71BD /* ios-design-value-systemUITests */ = {
+		A21C31E3704353B5ECCC71BD /* ios-design-tokensUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A21C3CA2F9E3136E114B9C3C /* Build configuration list for PBXNativeTarget "ios-design-value-systemUITests" */;
+			buildConfigurationList = A21C3CA2F9E3136E114B9C3C /* Build configuration list for PBXNativeTarget "ios-design-tokensUITests" */;
 			buildPhases = (
 				A21C3DCC0433065EA45BE601 /* Sources */,
 				A21C3450573221463C5B2CF1 /* Frameworks */,
@@ -355,14 +362,14 @@
 			dependencies = (
 				A21C36458471EB1DEE3CD683 /* PBXTargetDependency */,
 			);
-			name = "ios-design-value-systemUITests";
+			name = "ios-design-tokensUITests";
 			productName = templateUITests;
-			productReference = A21C325D14288BFD666BC8EA /* ios-design-value-systemUITests.xctest */;
+			productReference = A21C325D14288BFD666BC8EA /* ios-design-tokensUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		A21C397079085DE44125F0E2 /* ios-design-value-systemTests */ = {
+		A21C397079085DE44125F0E2 /* ios-design-tokensTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A21C3C022DA6FECDB6DDAB92 /* Build configuration list for PBXNativeTarget "ios-design-value-systemTests" */;
+			buildConfigurationList = A21C3C022DA6FECDB6DDAB92 /* Build configuration list for PBXNativeTarget "ios-design-tokensTests" */;
 			buildPhases = (
 				A21C3F414C21AAD10DDC9CD1 /* Sources */,
 				A21C34FA36B3353DDDA6B808 /* Frameworks */,
@@ -373,14 +380,14 @@
 			dependencies = (
 				A21C35E2B3E99E67F62E3039 /* PBXTargetDependency */,
 			);
-			name = "ios-design-value-systemTests";
+			name = "ios-design-tokensTests";
 			productName = templateTests;
-			productReference = A21C38CC23C5572C100AEB0B /* ios-design-value-systemTests.xctest */;
+			productReference = A21C38CC23C5572C100AEB0B /* ios-design-tokensTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A21C3F968362B78BDF05FEB0 /* ios-design-value-system */ = {
+		A21C3F968362B78BDF05FEB0 /* ios-design-tokens */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A21C3C9377CD69C3730332FE /* Build configuration list for PBXNativeTarget "ios-design-value-system" */;
+			buildConfigurationList = A21C3C9377CD69C3730332FE /* Build configuration list for PBXNativeTarget "ios-design-tokens" */;
 			buildPhases = (
 				177905CC1BE87F32DB695082 /* [CP] Check Pods Manifest.lock */,
 				A21C360A09F341AD19B06033 /* Sources */,
@@ -392,9 +399,9 @@
 			);
 			dependencies = (
 			);
-			name = "ios-design-value-system";
+			name = "ios-design-tokens";
 			productName = template;
-			productReference = A21C31C3A53283E16F0C3011 /* ios-design-value-system.app */;
+			productReference = A21C31C3A53283E16F0C3011 /* ios-design-tokens.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -405,7 +412,7 @@
 			attributes = {
 				ORGANIZATIONNAME = seljabali;
 			};
-			buildConfigurationList = A21C35C924465DD0F26DD855 /* Build configuration list for PBXProject "ios-design-value-system" */;
+			buildConfigurationList = A21C35C924465DD0F26DD855 /* Build configuration list for PBXProject "ios-design-tokens" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -419,9 +426,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A21C3F968362B78BDF05FEB0 /* ios-design-value-system */,
-				A21C397079085DE44125F0E2 /* ios-design-value-systemTests */,
-				A21C31E3704353B5ECCC71BD /* ios-design-value-systemUITests */,
+				A21C3F968362B78BDF05FEB0 /* ios-design-tokens */,
+				A21C397079085DE44125F0E2 /* ios-design-tokensTests */,
+				A21C31E3704353B5ECCC71BD /* ios-design-tokensUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -446,6 +453,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A21C3B23EF9117B75D0E6749 /* Assets.xcassets in Resources */,
+				68159402244E8CD9009F5228 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,7 +475,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ios-design-value-system-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-ios-design-tokens-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -480,7 +488,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ios-design-value-system/Pods-ios-design-value-system-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ios-design-tokens/Pods-ios-design-tokens-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
 			);
@@ -491,7 +499,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios-design-value-system/Pods-ios-design-value-system-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ios-design-tokens/Pods-ios-design-tokens-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -563,12 +571,12 @@
 /* Begin PBXTargetDependency section */
 		A21C35E2B3E99E67F62E3039 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A21C3F968362B78BDF05FEB0 /* ios-design-value-system */;
+			target = A21C3F968362B78BDF05FEB0 /* ios-design-tokens */;
 			targetProxy = A21C343B31F06C87A0D4E4C3 /* PBXContainerItemProxy */;
 		};
 		A21C36458471EB1DEE3CD683 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A21C3F968362B78BDF05FEB0 /* ios-design-value-system */;
+			target = A21C3F968362B78BDF05FEB0 /* ios-design-tokens */;
 			targetProxy = A21C336CD49B3A89113A769A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -691,14 +699,14 @@
 		};
 		A21C3BABF96BFD48B9C35367 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80066C37712708AFB8601C33 /* Pods-ios-design-value-system.debug.xcconfig */;
+			baseConfigurationReference = 45BF421391AC1DFDB524AB16 /* Pods-ios-design-tokens.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "ios-design-value-system/Info.plist";
+				INFOPLIST_FILE = "ios-design-tokens/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = seljabali;
-				PRODUCT_NAME = "ios-design-value-system";
+				PRODUCT_NAME = "ios-design-tokens";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -706,14 +714,14 @@
 		};
 		A21C3E2AFB3BD7DE67314033 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 312D72F8FCD73BA87629F214 /* Pods-ios-design-value-system.release.xcconfig */;
+			baseConfigurationReference = 903CB8298A9DBE616B3DB512 /* Pods-ios-design-tokens.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "ios-design-value-system/Info.plist";
+				INFOPLIST_FILE = "ios-design-tokens/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = seljabali;
-				PRODUCT_NAME = "ios-design-value-system";
+				PRODUCT_NAME = "ios-design-tokens";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -776,7 +784,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A21C35C924465DD0F26DD855 /* Build configuration list for PBXProject "ios-design-value-system" */ = {
+		A21C35C924465DD0F26DD855 /* Build configuration list for PBXProject "ios-design-tokens" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A21C368473DBC01FA8AD4DC4 /* Debug */,
@@ -785,7 +793,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A21C3C022DA6FECDB6DDAB92 /* Build configuration list for PBXNativeTarget "ios-design-value-systemTests" */ = {
+		A21C3C022DA6FECDB6DDAB92 /* Build configuration list for PBXNativeTarget "ios-design-tokensTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A21C36A5793C64F1854EBD5B /* Debug */,
@@ -794,7 +802,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A21C3C9377CD69C3730332FE /* Build configuration list for PBXNativeTarget "ios-design-value-system" */ = {
+		A21C3C9377CD69C3730332FE /* Build configuration list for PBXNativeTarget "ios-design-tokens" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A21C3BABF96BFD48B9C35367 /* Debug */,
@@ -803,7 +811,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A21C3CA2F9E3136E114B9C3C /* Build configuration list for PBXNativeTarget "ios-design-value-systemUITests" */ = {
+		A21C3CA2F9E3136E114B9C3C /* Build configuration list for PBXNativeTarget "ios-design-tokensUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A21C364DDD94A3618596C607 /* Debug */,
