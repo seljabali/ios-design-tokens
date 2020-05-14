@@ -1,37 +1,27 @@
 # iOS Design Tokens
-
-iOS app that visualizes common design tokens for both designers & developers.
-
+### Document your team's design tokens visually via a catalog.
 <img src="https://github.com/seljabali/ios-design-tokens/raw/master/screenshots/landing_page.png" alt="" data-canonical-src="" width="400" height="800" />
 
-### Rationale
-- **Standardization**: The absolute worst thing one could do is hard code values across their codebase, as it allows for inconsisent experience across the app.
-
-- **Flexibility**: You're now referencing from set spacing values. Imagine phones became a lot taller than phones today. Your design team now wants more vertical spacing across the board. These design tokens accomodate for such by separating vertical & horizontal paddings allowing that ask be done easily.
-
-- **Collaboration**: Many times design will find mockup mismatches with actual result. It can be extremely difficult finding where the delta in pixels came from. This app clearly displays actual pixel values used, revealing how they differ from phone to phone, thereby aligning expectations.
-
-- **Simplicity**: The less design token values, the easier it is to work with. That's why it's defaulted in using exponential growth in values for spacings. That said, it's entirely up to you to change the values used here.
+This app is complementary to [an article](https://uxplanet.org/the-one-system-every-best-in-class-digital-product-shares-e94f85a491d6) on best practices in forming & communicating Design Tokens used across iOS, Android, & Design teams. The app is meant to be in-app to the developing app at hand. It's Android complimenting app can be found [here](https://github.com/seljabali/android-design-tokens/).
 
 # Design Tokens
-### Vertical Spacings
-<img src="https://github.com/seljabali/ios-design-tokens/raw/master/screenshots/vertical_spacing.png" alt="" data-canonical-src="" width="400" height="800" />
-
-### Horizontal Spacings
+### Spacings
+- Vertical
+- Horizontal
+- Surrounding
 <img src="https://github.com/seljabali/ios-design-tokens/raw/master/screenshots/horizontal_spacing.png" alt="" data-canonical-src="" width="400" height="800" />
 
-### Text Appearances
-- Show cases built in iOS text appearances.
+### Text
+- Built in iOS text appearances.
+- Letter Spacings
 <img src="https://github.com/seljabali/ios-design-tokens/raw/master/screenshots/text_sizes.png" alt="" data-canonical-src="" width="400" height="800" />
 
-### Corner Radiuses
+### Views
+- Corner Radiuses
 <img src="https://github.com/seljabali/ios-design-tokens/raw/master/screenshots/corner_radiuses.png" alt="" data-canonical-src="" width="400" height="800" />
-
-### Letter Spacings
-<img src="https://github.com/seljabali/ios-design-tokens/raw/master/screenshots/letter_spacing.png" alt="" data-canonical-src="" width="400" height="800" />
 
 ### Colors
 <img src="https://github.com/seljabali/ios-design-tokens/raw/master/screenshots/colors.png" alt="" data-canonical-src="" width="400" height="800" />
 
-## LICENSE
-This is free and unencumbered software released into the public domain.
+# LICENSE
+[This is free and unencumbered software released into the public domain.](https://github.com/seljabali/android-design-tokens/blob/master/LICENSE)
