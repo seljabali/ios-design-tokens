@@ -24,4 +24,4 @@ This app is complementary to [an article](https://uxplanet.org/the-one-system-ev
 <img src="https://github.com/seljabali/ios-design-tokens/raw/master/screenshots/colors.png" alt="" data-canonical-src="" width="400" height="800" />
 
 # LICENSE
-[This is free and unencumbered software released into the public domain.](https://github.com/seljabali/ios-design-tokens/blob/master/LICENSE)
+[Creative Commons Zero v1.0 Universal.](https://github.com/seljabali/ios-design-tokens/blob/master/LICENSE)
